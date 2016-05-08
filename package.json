@@ -49,6 +49,9 @@
     "load-grunt-configs": "0.4.3",
     "load-grunt-tasks": "3.3.0"
   },
+   "engines": {
+        "node": "5.7.1"
+    },
   "bugs": {
     "url": "https://github.com/yourivdlans/materialism/issues"
   },
@@ -56,6 +59,9 @@
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
-  
+  },
+  "scripts": {
+        "start": "node server.js"
+    }
+
 }
